@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap cards</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar bg-primary navbar-dark  navbar-expand-lg p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href=#>Techhub</a>
+            <!-- toggler button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item"><a href="grid.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="cards.html" class="nav-link active">SERVICES</a></li>   
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+     </nav>
+
+
+    <div class="container">
+        <h2 class="text-warning text-center fw-bold">Our services</h2>
+        <!-- row -->
+         <div class="row">
+            <!-- column1 -->
+             <div class="col-md-4">
+                <!-- card -->
+                 <div class="card">
+                    <img src="static/images/web.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title text-success">Web development</h3>
+                        <p class="card-text">we create responsive and user-friendly websites using the latest web technologies.</p>
+                    </div>
+                 </div>
+             </div>
+             <!-- column2 -->
+             <div class="col-md-4">
+                <!-- card -->
+                <div class="card">
+                   <img src="static/images/cyber.jpg">
+                   <div class="card-body">
+                    <h3 class="card-title text-success">Cybersecurity</h3>
+                    <p class="card-text">we provide comprehensive cybersecurity solutions to protect your business from evolving threats.</p>
+                   </div>
+                </div>
+
+            </div>
+            <!-- column3 -->
+             <div class="col-md-4">
+                <!-- card -->
+                <div class="card">
+                    <img src="static/images/cloud.png">
+                    <div class="card-body">
+                        <h3 class="card-title text-success">Cloud Computing</h3>
+                        <p class="card-text">we offer scalable and secure cloud solutions to help your business thrive in the digital age.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+    </div>
+
+
+
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
